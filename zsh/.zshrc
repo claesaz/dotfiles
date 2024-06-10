@@ -1,12 +1,11 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 source "$HOME/.cargo/env"
 
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias v="vim"
-alias nv="nvim"
+alias vi="nvim"
+alias vim="nvim"
+
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
+# opam configuration
+[[ ! -r /Users/claes/.opam/opam-init/init.zsh ]] || source /Users/claes/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
