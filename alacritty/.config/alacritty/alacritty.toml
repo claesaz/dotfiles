@@ -10,8 +10,8 @@ padding = { x = 25, y = 25 }
 
 [font]
 normal = { family = "BlexMono Nerd Font Mono", style = "Regular" }
-size = 16
-offset = { y = 14 }
+size = 12
+offset = { y = 10 }
 glyph_offset = { y = 4 }
 
 [keyboard]
