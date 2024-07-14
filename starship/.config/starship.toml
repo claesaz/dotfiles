@@ -13,9 +13,9 @@ add_newline = false
 style = "blue"
 
 [character]
-success_symbol = "[>](green)"
-error_symbol = "[>](red)"
-vimcmd_symbol = "[<](green)"
+success_symbol = "[\ueab6](green)"
+error_symbol = "[\ueab6](red)"
+vimcmd_symbol = "[\ueab5](green)"
 
 [git_branch]
 format = "[$branch]($style)"
