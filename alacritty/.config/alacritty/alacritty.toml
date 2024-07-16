@@ -11,9 +11,9 @@ padding = { x = 25, y = 25 }
 
 [font]
 normal = { family = "BlexMono Nerd Font Mono", style = "Regular" }
-size = 16
+size = 14
 offset = { y = 12 }
-glyph_offset = { y = 5 }
+glyph_offset = { y = 6 }
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
