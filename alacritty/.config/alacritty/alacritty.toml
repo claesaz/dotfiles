@@ -10,8 +10,8 @@ opacity = 1.0
 padding = { x = 25, y = 25 }
 
 [font]
-normal = { family = "BlexMono Nerd Font Mono", style = "Regular" }
-size = 14
+normal = { family = "GoMono Nerd Font", style = "Regular" }
+size = 12
 offset = { y = 12 }
 glyph_offset = { y = 6 }
 
