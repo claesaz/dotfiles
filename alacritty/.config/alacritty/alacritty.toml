@@ -10,10 +10,10 @@ opacity = 1.0
 padding = { x = 25, y = 25 }
 
 [font]
-normal = { family = "GoMono Nerd Font", style = "Regular" }
-size = 12
-offset = { y = 12 }
-glyph_offset = { y = 6 }
+normal = { family = "InconsolataGo Nerd Font", style = "Regular" }
+size = 16
+offset = { y = 10 }
+glyph_offset = { y = 5 }
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
