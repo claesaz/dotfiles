@@ -289,23 +289,6 @@ require("lazy").setup({
 			---@diagnostic disable-next-line: missing-fields
 			require("nvim-treesitter.configs").setup(opts)
 		end,
-		ui = {
-			icons = vim.g.have_nerd_font and {} or {
-				cmd = "⌘",
-				config = "🛠",
-				event = "📅",
-				ft = "📂",
-				init = "⚙",
-				keys = "🗝",
-				plugin = "🔌",
-				runtime = "💻",
-				require = "🌙",
-				source = "📄",
-				start = "🚀",
-				task = "📌",
-				lazy = "💤 ",
-			},
-		},
 	},
 	{
 		"neovim/nvim-lspconfig",
@@ -397,5 +380,23 @@ require("lazy").setup({
 			})
 		end,
 	}, -- "neovim/nvim-lspconfig"
+}, {
+	ui = {
+		icons = vim.g.have_nerd_font and {} or {
+			cmd = "⌘",
+			config = "🛠",
+			event = "📅",
+			ft = "📂",
+			init = "⚙",
+			keys = "🗝",
+			plugin = "🔌",
+			runtime = "💻",
+			require = "🌙",
+			source = "📄",
+			start = "🚀",
+			task = "📌",
+			lazy = "💤 ",
+		},
+	},
 }) -- require("lazy").setup()
 -- vim: ts=2 sts=2 sw=2 et
