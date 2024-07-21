@@ -15,3 +15,7 @@ alias vim="nvim"
 alias v="nvim"
 alias nv="nvim"
 alias n="nvim"
+
+if [ -e /opt/homebrew/bin/bat ]; then
+	alias cat="bat"
+fi
