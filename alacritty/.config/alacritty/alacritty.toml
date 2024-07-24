@@ -10,10 +10,13 @@ opacity = 1.0
 padding = { x = 25, y = 25 }
 
 [font]
-normal = { family = "InconsolataGo Nerd Font", style = "Regular" }
-size = 16
+normal = { family = "JetBrainsMono Nerd Font", style = "Light" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Light Italic" }
+size = 14
 offset = { y = 10 }
-glyph_offset = { y = 5 }
+glyph_offset = { y = 4 }
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
