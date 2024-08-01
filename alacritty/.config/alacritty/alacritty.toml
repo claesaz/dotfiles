@@ -26,5 +26,5 @@ bindings = [
   { key = "Enter", mods = "Command", action = "ToggleFullscreen" },
   { key = "Tab", mods = "Option", action = "SelectNextTab" },
   { key = "Tab", mods = "Option|Shift", action = "SelectPreviousTab" },
-  { key = "Space", mods = "Control|Option", action = "ToggleViMode" },
+  { key = "Space", mods = "Control", action = "ToggleViMode" },
 ]
