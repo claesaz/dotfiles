@@ -3,13 +3,12 @@
 format = """
 $directory\
 $git_branch\
-$git_state\
 $character"""
 
 add_newline = false
 
 [directory]
-style = "black"
+style = "bright-black"
 
 [character]
 success_symbol = "[\ueab6](green)"
@@ -18,8 +17,4 @@ vimcmd_symbol = "[\ueab5](green)"
 
 [git_branch]
 format = "[$branch]($style) "
-style = "bright-black"
-
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\)'
-style = "bright-black"
+style = "black"
