@@ -11,8 +11,8 @@ add_newline = false
 style = "bright-black"
 
 [character]
-success_symbol = "[\ueab6](green)"
-error_symbol = "[\ueab6](red)"
+success_symbol = "[\uf054](green)"
+error_symbol = "[\uf054](red)"
 vimcmd_symbol = "[\ueab5](green)"
 
 [git_branch]
