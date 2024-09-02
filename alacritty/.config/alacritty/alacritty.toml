@@ -24,7 +24,7 @@ style = { shape = "Underline", blinking = "Never" }
 [keyboard]
 bindings = [
   { key = "Enter", mods = "Command", action = "ToggleFullscreen" },
-  { key = "Tab", mods = "Option", action = "SelectNextTab" },
-  { key = "Tab", mods = "Option|Shift", action = "SelectPreviousTab" },
+  { key = "Tab", mods = "Control", action = "SelectNextTab" },
+  { key = "Tab", mods = "Control|Shift", action = "SelectPreviousTab" },
   { key = "Space", mods = "Option", action = "ToggleViMode" },
 ]
