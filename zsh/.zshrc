@@ -39,10 +39,7 @@ export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 export PATH="$PATH:$HOME/go/bin"
-
-if [ -r ~/code/tada/tada ]; then
-  export PATH="$PATH:$HOME/code/tada"
-fi
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 if [ -r /opt/homebrew/bin/nvim ]; then
   alias vi="nvim"
