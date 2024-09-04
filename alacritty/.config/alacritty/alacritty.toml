@@ -14,7 +14,7 @@ normal = { family = "JetBrainsMono Nerd Font", style = "Light" }
 bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
 italic = { family = "JetBrainsMono Nerd Font", style = "Light Italic" }
-size = 14
+size = 12
 offset = { y = 10 }
 glyph_offset = { y = 4 }
 
