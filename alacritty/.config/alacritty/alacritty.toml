@@ -1,6 +1,3 @@
-import = [
-  "~/.config/alacritty/catppuccin-macchiato.toml"
-]
 
 [env]
 TERM = "xterm-256color"
@@ -27,4 +24,9 @@ bindings = [
   { key = "Tab", mods = "Control", action = "SelectNextTab" },
   { key = "Tab", mods = "Control|Shift", action = "SelectPreviousTab" },
   { key = "Space", mods = "Option", action = "ToggleViMode" },
+]
+
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-macchiato.toml"
 ]
