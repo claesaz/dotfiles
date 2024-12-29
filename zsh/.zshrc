@@ -1,4 +1,4 @@
 if [[ $(uname) == "Darwin" ]]; then
-  echo "Loading MacOS setttings"
+  echo "Loading settings for MacOS."
   source ~/.zshrc-mac
 fi
