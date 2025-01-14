@@ -7,3 +7,4 @@ window-padding-x = 26
 window-padding-y = 26
 quit-after-last-window-closed = true
 shell-integration = zsh
+term = xterm-256color
