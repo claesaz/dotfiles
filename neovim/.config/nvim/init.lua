@@ -87,31 +87,31 @@ require("lazy").setup({
 			},
 		},
 	},
-	{
-		"folke/which-key.nvim", -- Useful plugin to show you pending keybinds.
-		event = "VimEnter", -- Sets the loading event to 'VimEnter'
-		config = function() -- This is the function that runs, AFTER loading
-			require("which-key").setup()
-			-- Document existing key chainsrequire
-			require("which-key").add({
-				{ "", group = "[S]earch" },
-				{ "", desc = "<leader>r_", hidden = true },
-				{ "", desc = "<leader>s_", hidden = true },
-				{ "", desc = "<leader>t_", hidden = true },
-				{ "", group = "[T]oggle" },
-				{ "", group = "[W]orkspace" },
-				{ "", group = "[R]ename" },
-				{ "", group = "Git [H]unk" },
-				{ "", group = "[C]ode" },
-				{ "", desc = "<leader>h_", hidden = true },
-				{ "", desc = "<leader>c_", hidden = true },
-				{ "", desc = "<leader>d_", hidden = true },
-				{ "", group = "[D]ocument" },
-				{ "", desc = "<leader>w_", hidden = true },
-				{ "", desc = "<leader>h", mode = "v" },
-			})
-		end,
-	},
+	--{
+	--	"folke/which-key.nvim", -- Useful plugin to show you pending keybinds.
+	--	event = "VimEnter", -- Sets the loading event to 'VimEnter'
+	--	config = function() -- This is the function that runs, AFTER loading
+	--		require("which-key").setup()
+	--		-- Document existing key chainsrequire
+	--		require("which-key").add({
+	--			{ "", group = "[S]earch" },
+	--			{ "", desc = "<leader>r_", hidden = true },
+	--			{ "", desc = "<leader>s_", hidden = true },
+	--			{ "", desc = "<leader>t_", hidden = true },
+	--			{ "", group = "[T]oggle" },
+	--			{ "", group = "[W]orkspace" },
+	--			{ "", group = "[R]ename" },
+	--			{ "", group = "Git [H]unk" },
+	--			{ "", group = "[C]ode" },
+	--			{ "", desc = "<leader>h_", hidden = true },
+	--			{ "", desc = "<leader>c_", hidden = true },
+	--			{ "", desc = "<leader>d_", hidden = true },
+	--			{ "", group = "[D]ocument" },
+	--			{ "", desc = "<leader>w_", hidden = true },
+	--			{ "", desc = "<leader>h", mode = "v" },
+	--		})
+	--	end,
+	--},
 	{
 		"nvim-telescope/telescope.nvim",
 		event = "VimEnter",
@@ -289,9 +289,9 @@ require("lazy").setup({
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
 		opts = {
-			ensure_installed = { "bash", "c", "diff", "go", "html", "lua", "luadoc", "markdown", "vim", "vimdoc" },
+			ensure_installed = { "bash", "go", "python" },
 			-- Autoinstall languages that are not installed
-			auto_install = true,
+			auto_install = false,
 			highlight = {
 				enable = true,
 				additional_vim_regex_highlighting = { "ruby" },
@@ -380,8 +380,8 @@ require("lazy").setup({
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
-				"json-lsp",
-				"rust-analyzer",
+				--"json-lsp",
+				--"rust-analyzer",
 			})
 
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
