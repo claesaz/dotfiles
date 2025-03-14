@@ -3,17 +3,14 @@
 TERM = "xterm-256color"
 
 [window]
-opacity = 1.0
+opacity = 0.9
 padding = { x = 15, y = 15 }
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Light" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Light Italic" }
+normal = { family = "BlexMono Nerd Font" }
 size = 18
-offset = { y = 12 }
-glyph_offset = { y = 4 }
+offset = { y = 14 }
+glyph_offset = { y = 8 }
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
