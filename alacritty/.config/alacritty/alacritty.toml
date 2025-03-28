@@ -6,7 +6,6 @@ TERM = "xterm-256color"
 padding = { x = 20, y = 20 }
 
 [font]
-#normal = { family = "BlexMono Nerd Font" }
 size = 18
 offset = { y = 14 }
 glyph_offset = { y = 8 }
