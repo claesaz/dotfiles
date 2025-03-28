@@ -1,6 +1,6 @@
 vim.g.mapleader = " " -- define leader key to space
 vim.g.maplocalleader = " " -- define leader key to space
-vim.g.have_nerd_font = true -- have nerdfont or not
+vim.g.have_nerd_font = false -- have nerdfont or not
 vim.g.loaded_node_provider = 0 -- do not use nodejs
 
 -- Vim Options
