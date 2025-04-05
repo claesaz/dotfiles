@@ -7,7 +7,7 @@ export LC_ALL="en_US.UTF-8"
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 #export GOBIN="$HOME/go/bin"
 #export PATH="$PATH:/Users/clpe/Library/Python/3.9/bin:$GOBIN"
-#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 if [ -f /opt/homebrew/bin/fzf ]; then
@@ -21,4 +21,8 @@ if [ -r /opt/homebrew/bin/nvim ]; then
   alias nv="nvim"
   alias n="nvim"
   export EDITOR="/opt/homebrew/bin/nvim"
+fi
+
+if [ -r /opt/homebrew/bin/bat ]; then
+  alias cat="bat"
 fi
