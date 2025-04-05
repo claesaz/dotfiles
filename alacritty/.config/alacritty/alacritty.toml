@@ -6,9 +6,11 @@ TERM = "xterm-256color"
 padding = { x = 20, y = 20 }
 
 [font]
-size = 18
-offset = { y = 14 }
-glyph_offset = { y = 8 }
+#normal = { family = "BigBlueTerm437 Nerd Font", style = "Regular" }
+normal = { family = "BlexMono Nerd Font Mono", style = "Regular" }
+size = 12
+offset = { y = 10 }
+glyph_offset = { y = 4 }
 
 [cursor]
 style = { shape = "Underline", blinking = "Never" }
@@ -21,7 +23,7 @@ bindings = [
   { key = "Space", mods = "Option", action = "ToggleViMode" },
 ]
 
-[general]
-import = [
-  "~/.config/alacritty/catppuccin-macchiato.toml"
-]
+#[general]
+#import = [
+#  "~/.config/alacritty/catppuccin-macchiato.toml"
+#]
