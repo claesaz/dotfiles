@@ -10,6 +10,7 @@ export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agen
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
+
 if [ -f /opt/homebrew/bin/fzf ]; then
   source <(fzf --zsh)
 fi
@@ -26,3 +27,5 @@ fi
 if [ -r /opt/homebrew/bin/bat ]; then
   alias cat="bat"
 fi
+
+alias ll="ls -l"
