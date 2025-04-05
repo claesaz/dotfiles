@@ -1,6 +1,6 @@
 vim.g.mapleader = " " -- define leader key to space
 vim.g.maplocalleader = " " -- define leader key to space
-vim.g.have_nerd_font = false -- have nerdfont or not
+vim.g.have_nerd_font = true -- have nerdfont or not
 vim.g.loaded_node_provider = 0 -- do not use nodejs
 
 -- Vim Options
@@ -255,15 +255,15 @@ require("lazy").setup({
 			},
 		},
 	},
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		init = function()
-			vim.cmd.colorscheme("catppuccin-macchiato")
-			vim.cmd.hi("Comment gui=none")
-		end,
-	},
+	--{
+	--	"catppuccin/nvim",
+	--	name = "catppuccin",
+	--	priority = 1000,
+	--	init = function()
+	--		vim.cmd.colorscheme("catppuccin-macchiato")
+	--		vim.cmd.hi("Comment gui=none")
+	--	end,
+	--},
 	{
 		"folke/todo-comments.nvim",
 		event = "VimEnter",
