@@ -29,3 +29,7 @@ if [ -r /opt/homebrew/bin/bat ]; then
 fi
 
 alias ll="ls -l"
+
+if [ -r /Applications/love.app/Contents/MacOS/love ]; then
+  alias love="/Applications/love.app/Contents/MacOS/love"
+fi
