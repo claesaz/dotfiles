@@ -1,10 +1,10 @@
 font-family = "Inconsolata Nerd Font Mono"
-font-size = 18
-adjust-cell-height = 20%
+font-size = 22
+adjust-cell-height = 40%
 minimum-contrast = 1
 theme = Catppuccin Macchiato
-window-padding-x = 26
-window-padding-y = 26
+window-padding-x = 32
+window-padding-y = 32
 quit-after-last-window-closed = true
 shell-integration = zsh
 term = xterm-256color
