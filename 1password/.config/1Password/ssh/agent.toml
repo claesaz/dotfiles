@@ -1,0 +1,7 @@
+[[ssh-keys]]
+item = "c@cp.se"
+vault = "Personal"
+
+[[ssh-keys]]
+item = "claes@anzr.co"
+vault = "Anzr"
