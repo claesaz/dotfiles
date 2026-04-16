@@ -1,4 +1,5 @@
-font-family = "Inconsolata Nerd Font Mono"
+#font-family = "Inconsolata Nerd Font Mono"
+font-family = "Blex Mono Nerd Font"
 font-size = 14
 adjust-cell-height = 40%
 minimum-contrast = 1
