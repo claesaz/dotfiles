@@ -29,3 +29,4 @@ if [ -r /opt/homebrew/bin/bat ]; then
 fi
 
 alias ll="ls -l"
+export XDG_DATA_DIRS="$XDG_DATA_DIRS:/opt/homebrew/share/"
